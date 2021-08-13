@@ -97,3 +97,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 > Se quiser pode dar um nome para a sua instalção
 
 ![image](https://user-images.githubusercontent.com/23584038/129358840-1ecc3edd-b72e-4ebc-a807-a53edce6d5a1.png)
+
+> Escolha seu tema padrão
+
+![image](https://user-images.githubusercontent.com/23584038/129358993-ef10a37c-9117-420b-a7e9-327244046890.png)
