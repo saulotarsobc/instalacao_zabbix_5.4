@@ -69,6 +69,10 @@ DBPassword=OutraSuperSenha
 
 ### e. Ajuste o [timezone](https://www.php.net/manual/pt_BR/timezones.america.php) para a sua região em /etc/zabbix/apache.conf
 
+```sh
+php_value date.timezone America/Santarem
+```
+
 ![image](https://user-images.githubusercontent.com/23584038/129357742-d5892eef-f61e-45aa-a4ac-7c26bc6d98f3.png)
 
 ### f. Inicie o servidor Zabbix e os processos do agente
