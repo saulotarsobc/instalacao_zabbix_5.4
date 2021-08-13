@@ -101,3 +101,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 > Escolha seu tema padrão
 
 ![image](https://user-images.githubusercontent.com/23584038/129358993-ef10a37c-9117-420b-a7e9-327244046890.png)
+
+> Se tudo estiver correto pressione o botão "Próximo passo", ou pressione o botão "Retornar" para modificar parâmetros de configuração.
+
+![image](https://user-images.githubusercontent.com/23584038/129359110-6455a7ca-702d-46f0-9eec-d88c2e3a1142.png)
