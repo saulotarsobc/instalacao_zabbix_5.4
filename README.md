@@ -60,3 +60,17 @@ zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p z
 ```sh
 DBPassword=OutraSuperSenha
 ```
+
+### e. Inicie o servidor Zabbix e os processos do agente
+
+> Inicie o servidor Zabbix e os processos do agente e configure-os para que sejam iniciados durante o boot do sistema.
+
+```sh
+systemctl restart zabbix-server zabbix-agent apache2
+systemctl enable zabbix-server zabbix-agent apache2
+```
+
+### f. Configure o frontend do Zabbix
+
+> Conecte-se ao frontend Zabbix instalado: 'http://server_ip_or_name/zabbix'
+Siga as etapas descritas na documentação do Zabbix: Instalando frontend
