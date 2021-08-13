@@ -50,7 +50,7 @@ grant all privileges on zabbix.* to zabbix@localhost;
 quit;
 ```
 
-> No servidor do Zabbix, importe o esquema inicial e os dados. Vocá será solicitado a inserir a senha que foi criada anteriormente.
+> No servidor do Zabbix, importe o esquema inicial e os dados. Vocá será solicitado a inserir a senha que foi criada anteriormente. Essa parte é normal demorar um pouco. Não se preocupe.
 
 ```sh
 zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p zabbix
