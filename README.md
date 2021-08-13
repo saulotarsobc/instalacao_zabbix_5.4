@@ -90,27 +90,27 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ![image](https://user-images.githubusercontent.com/23584038/129356074-9d55f584-51a8-440f-8da0-910bc3f3901f.png)
 
-> Coloque aquela 'OutraSuperSenha' aqui
+## Coloque aquela 'OutraSuperSenha' aqui
 
 ![image](https://user-images.githubusercontent.com/23584038/129358647-6646e934-27f9-4871-9fa7-1e3fbcb43a68.png)
 
-> Se quiser pode dar um nome para a sua instalção
+## Se quiser pode dar um nome para a sua instalção
 
 ![image](https://user-images.githubusercontent.com/23584038/129358840-1ecc3edd-b72e-4ebc-a807-a53edce6d5a1.png)
 
-> Escolha seu tema padrão
+## Escolha seu tema padrão
 
 ![image](https://user-images.githubusercontent.com/23584038/129358993-ef10a37c-9117-420b-a7e9-327244046890.png)
 
-> Se tudo estiver correto pressione o botão "Próximo passo", ou pressione o botão "Retornar" para modificar parâmetros de configuração.
+## Se tudo estiver correto pressione o botão "Próximo passo", ou pressione o botão "Retornar" para modificar parâmetros de configuração.
 
 ![image](https://user-images.githubusercontent.com/23584038/129359110-6455a7ca-702d-46f0-9eec-d88c2e3a1142.png)
 
-> Fim
+## Fim
 
 ![image](https://user-images.githubusercontent.com/23584038/129359153-9458986f-1027-4a94-9549-4217d99d75ce.png)
 
-> Primeiro login com user Admin e senha zabbix
+## Primeiro login com user Admin e senha zabbix
 
 ![image](https://user-images.githubusercontent.com/23584038/129359262-793fdae7-5a1a-4a88-b1b4-afe9527fd455.png)
 
