@@ -10,7 +10,9 @@ apt install mariadb-server mariadb-client
 
 ```sh
 mariadb -u root
+```
 
+```sql
 USE mysql;
 UPDATE user SET password=PASSWORD('SUPER_SENHA') WHERE User='root';
 UPDATE user SET plugin="mysql_native_password";
@@ -39,7 +41,9 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 ```sh
 mysql -uroot -p
 [SUPER_SENHA]
+```
 
+```sql
 create database zabbix character set utf8 collate utf8_bin;
 create user zabbix@localhost identified by 'OutraSuperSenha';
 grant all privileges on zabbix.* to zabbix@localhost;
