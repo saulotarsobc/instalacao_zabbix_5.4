@@ -65,6 +65,8 @@ zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p z
 DBPassword=OutraSuperSenha
 ```
 
+![image](https://user-images.githubusercontent.com/23584038/129355473-99a86a04-a0f2-43a5-a857-c914017af1f2.png)
+
 ### e. Inicie o servidor Zabbix e os processos do agente
 
 > Inicie o servidor Zabbix e os processos do agente e configure-os para que sejam iniciados durante o boot do sistema.
