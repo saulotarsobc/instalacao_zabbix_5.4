@@ -86,8 +86,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### g. Configure o frontend do Zabbix
 
-> Conecte-se ao frontend Zabbix instalado: 'http://server_ip_or_name/zabbix'
-Siga as etapas descritas na documentação do Zabbix: Instalando frontend
+> Conecte-se ao frontend Zabbix instalado: 'http://IP_DO_SERVIDOR/zabbix' e siga as etapas descritas na documentação do Zabbix: Instalando frontend
 
 ![image](https://user-images.githubusercontent.com/23584038/129356074-9d55f584-51a8-440f-8da0-910bc3f3901f.png)
 
