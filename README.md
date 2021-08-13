@@ -67,7 +67,9 @@ DBPassword=OutraSuperSenha
 
 ![image](https://user-images.githubusercontent.com/23584038/129355473-99a86a04-a0f2-43a5-a857-c914017af1f2.png)
 
-### e. Inicie o servidor Zabbix e os processos do agente
+### e. Ajuste o [timezone](https://www.php.net/manual/pt_BR/timezones.america.php) pela sua região
+
+### f. Inicie o servidor Zabbix e os processos do agente
 
 > Inicie o servidor Zabbix e os processos do agente e configure-os para que sejam iniciados durante o boot do sistema.
 
@@ -76,7 +78,7 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-### f. Configure o frontend do Zabbix
+### g. Configure o frontend do Zabbix
 
 > Conecte-se ao frontend Zabbix instalado: 'http://server_ip_or_name/zabbix'
 Siga as etapas descritas na documentação do Zabbix: Instalando frontend
