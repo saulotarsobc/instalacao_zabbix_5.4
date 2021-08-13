@@ -106,4 +106,10 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ![image](https://user-images.githubusercontent.com/23584038/129359110-6455a7ca-702d-46f0-9eec-d88c2e3a1142.png)
 
+> Fim
+
 ![image](https://user-images.githubusercontent.com/23584038/129359153-9458986f-1027-4a94-9549-4217d99d75ce.png)
+
+> Primeiro login com user Admin e senha zabbix
+
+![image](https://user-images.githubusercontent.com/23584038/129359262-793fdae7-5a1a-4a88-b1b4-afe9527fd455.png)
