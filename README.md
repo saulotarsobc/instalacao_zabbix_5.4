@@ -60,3 +60,5 @@ zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p z
 ```sh
 DBPassword=OutraSuperSenha
 ```
+
+![image](https://user-images.githubusercontent.com/23584038/129354797-693993a3-d71c-4698-ab78-32541bc4b979.png)
