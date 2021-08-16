@@ -1,6 +1,6 @@
 # Realize o Download e instale o Zabbix
 
-## Instalação do MariaDB 10.3
+## Instalação do MariaDB
 
 ```sh
 apt install mariadb-server mariadb-client
