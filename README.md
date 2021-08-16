@@ -1,4 +1,4 @@
-# Instalção do Zabbix 5.4
+# Instalação do Zabbix 5.4
 
 ## Instalação do MariaDB
 
