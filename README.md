@@ -1,4 +1,4 @@
-# Realize o Download e instale o Zabbix
+# Instalção do Zabbix 5.4
 
 ## Instalação do MariaDB
 
