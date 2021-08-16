@@ -12,6 +12,8 @@ apt install mariadb-server mariadb-client
 mariadb -u root
 ```
 
+> Obtenha uma senha segura aqui no [gerador de senhas do remontti.com.br](https://senhasegura.remontti.com.br/)
+
 ```sql
 USE mysql;
 UPDATE user SET password=PASSWORD('SUPER_SENHA') WHERE User='root';
