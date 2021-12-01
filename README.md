@@ -47,7 +47,7 @@ mysql -uroot -p
 
 ```sql
 create database zabbix character set utf8 collate utf8_bin;
-create user zabbix@localhost identified by 'OUTRA_SUPER_SENHA';
+create user zabbix@localhost identified by 'OutraSuperSenha';
 grant all privileges on zabbix.* to zabbix@localhost;
 quit;
 ```
@@ -56,7 +56,7 @@ quit;
 
 ```sh
 zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p zabbix
-[OUTRA_SUPER_SENHA]
+[OutraSuperSenha]
 ```
 
 ### d. Configure o banco de dados para o servidor Zabbix
@@ -64,7 +64,7 @@ zcat /usr/share/doc/zabbix-sql-scripts/mysql/create.sql.gz | mysql -uzabbix -p z
 > Editar arquivo /etc/zabbix/zabbix_server.conf
 
 ```sh
-DBPassword=OUTRA_SUPER_SENHA
+DBPassword=OutraSuperSenha
 ```
 
 ![image](https://user-images.githubusercontent.com/23584038/129355473-99a86a04-a0f2-43a5-a857-c914017af1f2.png)
