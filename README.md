@@ -92,7 +92,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ![image](https://user-images.githubusercontent.com/23584038/129356074-9d55f584-51a8-440f-8da0-910bc3f3901f.png)
 
-## Coloque aquela 'OUTRA_SUPER_SENHA' aqui
+## Coloque aquela 'OutraSuperSenha' aqui
 
 ![image](https://user-images.githubusercontent.com/23584038/129358647-6646e934-27f9-4871-9fa7-1e3fbcb43a68.png)
 
