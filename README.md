@@ -69,7 +69,9 @@ DBPassword=OutraSuperSenha
 
 ![image](https://user-images.githubusercontent.com/23584038/129355473-99a86a04-a0f2-43a5-a857-c914017af1f2.png)
 
-### e. Ajuste o [timezone](https://www.php.net/manual/pt_BR/timezones.america.php) para a sua região em /etc/zabbix/apache.conf
+### e. Ajuste o [timezone](https://www.php.net/manual/pt_BR/timezones.america.php) para a sua região 
+
+> Editar arquivo /etc/zabbix/apache.conf
 
 ```sh
 php_value date.timezone America/Santarem
